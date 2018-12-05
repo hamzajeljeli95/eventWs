@@ -19,7 +19,7 @@ import java.util.List;
 public abstract class GenericDaoImpl<E, PK extends java.io.Serializable> implements GenericDao<E, PK> {
 
 
-    private static SessionFactory sessionFactory;  //comes in from bean
+    static SessionFactory sessionFactory;  //comes in from bean
 
     static {
         try {

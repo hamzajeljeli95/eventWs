@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="d0ba52f8-bb2f-4e1e-b3fe-4d4a37e324cd">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="9a456f68-61df-4262-94e7-8369af7df4a7">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>Hibernate
 
-C:/Users/Hamza/IdeaProjects/userWebServices/src/main/resources/hibernate.cfg.xml</remarks>
+C:/Users/Hamza/IdeaProjects/eventsWebServices/src/main/resources/hibernate.cfg.xml</remarks>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://41.229.118.249:33820;database=CampRandoApp</jdbc-url>
       <driver-properties>

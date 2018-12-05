@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="userWebServices" />
+        <module name="eventWebServices" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="userWebServices" target="1.5" />
+      <module name="eventWebServices" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

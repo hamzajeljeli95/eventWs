@@ -2,14 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <!--<parent>
-        <artifactId>mobileAppWebServices</artifactId>
-        <groupId>isetr-mpdam.tn</groupId>
-        <version>1.0</version>
-    </parent>-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>isetr-mpdam.tn</groupId>
-    <artifactId>userWebServices</artifactId>
+    <artifactId>eventWebServices</artifactId>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
         <dependency>
@@ -52,16 +47,6 @@
             <artifactId>spring-orm</artifactId>
             <version>RELEASE</version>
         </dependency>
-        <!--<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>RELEASE</version>
-        </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -138,6 +123,6 @@
         <start-class>MainPackage.Starter</start-class>
     </properties>
     <packaging>war</packaging>
-    <name>USER Web Services</name>
+    <name>Event Web Services</name>
     <version>1.0.0</version>
 </project>

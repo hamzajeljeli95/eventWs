@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hibernate.cfg.xml/Hibernate">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.14">
+    <root id="1">
+      <ServerVersion>14.0.3045</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="CampRandoApp">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="7" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-12-04.16:55:47.550</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="18" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="20" parent="17" name="AppUser">
+      <ObjectId>885578193</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.540</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.827</ModifiedTimestamp>
+    </table>
+    <table id="21" parent="17" name="Event">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.603</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.810</ModifiedTimestamp>
+    </table>
+    <table id="22" parent="17" name="EventAdditionalInfos">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.640</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-12.16:04:31.973</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="17" name="EventComments">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.687</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.827</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="17" name="EventInfo">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.610</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.763</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="17" name="EventParticipants">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.663</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:35:30.440</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="17" name="UserAdditionalInfos">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.587</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-12.16:04:13.773</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="17" name="UserInfo">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2018-11-07.11:42:13.560</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.723</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="17" name="sysdiagrams">
+      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2018-11-17.19:28:58.600</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.600</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="17" name="user_info">
+      <ObjectId>1845581613</ObjectId>
+      <CreatedTimestamp>2018-12-04.16:06:46.323</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-04.16:06:46.323</ModifiedTimestamp>
+    </table>
+    <routine id="30" parent="17" name="fn_diagramobjects">
+      <ObjectId>1541580530</ObjectId>
+      <SourceTextLength>1647</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.640</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.640</ModifiedTimestamp>
+      <RoutineKind>function</RoutineKind>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="31" parent="17" name="sp_alterdiagram">
+      <ObjectId>1509580416</ObjectId>
+      <SourceTextLength>1501</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.613</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.613</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="32" parent="17" name="sp_creatediagram">
+      <ObjectId>1477580302</ObjectId>
+      <SourceTextLength>1223</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.610</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.610</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="33" parent="17" name="sp_dropdiagram">
+      <ObjectId>1525580473</ObjectId>
+      <SourceTextLength>896</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.617</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.617</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="34" parent="17" name="sp_helpdiagramdefinition">
+      <ObjectId>1461580245</ObjectId>
+      <SourceTextLength>921</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.607</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.607</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="35" parent="17" name="sp_helpdiagrams">
+      <ObjectId>1445580188</ObjectId>
+      <SourceTextLength>658</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.603</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.603</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="36" parent="17" name="sp_renamediagram">
+      <ObjectId>1493580359</ObjectId>
+      <SourceTextLength>1721</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.613</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.613</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="37" parent="17" name="sp_upgraddiagrams">
+      <ObjectId>1381579960</ObjectId>
+      <SourceTextLength>1463</SourceTextLength>
+      <CreatedTimestamp>2018-11-17.19:28:58.597</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.597</ModifiedTimestamp>
+      <RoutineKind>procedure</RoutineKind>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="38" parent="20" name="username">
+      <Position>1</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="20" name="passwordHash">
+      <Position>2</Position>
+      <DefaultConstraintName>DF__AppUser__passwor__36B12243</DefaultConstraintName>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="20" name="isConfirmed">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__AppUser__isConfi__37A5467C</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="20" name="profile">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__AppUser__profile__38996AB5</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="42" parent="20" name="PK__AppUser__F3DBC5732FD053A7">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>username</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="43" parent="20" name="PK__AppUser__F3DBC5732FD053A7">
+      <ObjectId>901578250</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.557</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.557</ModifiedTimestamp>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>PK__AppUser__F3DBC5732FD053A7</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="44" parent="20" name="DF__AppUser__passwor__36B12243">
+      <ObjectId>917578307</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-11-07.11:42:13.557</ModifiedTimestamp>
+      <ColNames>passwordHash</ColNames>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </default>
+    <default id="45" parent="20" name="DF__AppUser__isConfi__37A5467C">
+      <ObjectId>933578364</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-11-07.11:42:13.557</ModifiedTimestamp>
+      <ColNames>isConfirmed</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="46" parent="20" name="DF__AppUser__profile__38996AB5">
+      <ObjectId>949578421</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-11-07.11:42:13.557</ModifiedTimestamp>
+      <ColNames>profile</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="47" parent="21" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="21" name="organizerId">
+      <Position>2</Position>
+      <DefaultConstraintName>DF__Event__organizer__3F466844</DefaultConstraintName>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="49" parent="21" name="PK__Event__3213E83F74420070">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="21" name="PK__Event__3213E83F74420070">
+      <ObjectId>1045578763</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.603</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.603</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Event__3213E83F74420070</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="51" parent="21" name="FK__Event__organizer__49C3F6B7">
+      <ObjectId>1237579447</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.743</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.743</ModifiedTimestamp>
+      <ColNames>organizerId</ColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>AppUser</RefTableName>
+      <RefKeyName>PK__AppUser__F3DBC5732FD053A7</RefKeyName>
+      <RefColNames>username</RefColNames>
+    </foreign-key>
+    <default id="52" parent="21" name="DF__Event__organizer__3F466844">
+      <ObjectId>1061578820</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-11-07.11:42:13.607</ModifiedTimestamp>
+      <ColNames>organizerId</ColNames>
+      <DefaultExpression>&apos;NULL&apos;</DefaultExpression>
+    </default>
+    <column id="53" parent="22" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="22" name="eventId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="22" name="infoId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="22" name="InfoContent">
+      <Position>4</Position>
+      <DataType>varchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="57" parent="22" name="PK__EventAdd__3213E83F1F1CAA74">
+      <Position>1</Position>
+      <ColNames>id
+eventId
+infoId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="22" name="PK__EventAdd__3213E83F1F1CAA74">
+      <ObjectId>1365579903</ObjectId>
+      <CreatedTimestamp>2018-11-12.16:04:31.967</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-12.16:04:31.967</ModifiedTimestamp>
+      <ColNames>id
+eventId
+infoId</ColNames>
+      <UnderlyingIndexName>PK__EventAdd__3213E83F1F1CAA74</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="59" parent="22" name="FK__EventAddi__event__4AB81AF0">
+      <ObjectId>1253579504</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.750</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.750</ModifiedTimestamp>
+      <ColNames>eventId</ColNames>
+      <RefTableId>1029578706</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Event</RefTableName>
+      <RefKeyName>PK__Event__3213E83F74420070</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="60" parent="22" name="FK__EventAddi__infoI__4BAC3F29">
+      <ObjectId>1269579561</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.763</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.763</ModifiedTimestamp>
+      <ColNames>infoId</ColNames>
+      <RefTableId>1077578877</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>EventInfo</RefTableName>
+      <RefKeyName>PK__EventInf__3213E83F0746F42F</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="61" parent="23" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="23" name="idEvent">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="23" name="idUser">
+      <Position>3</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="23" name="commentContent">
+      <Position>4</Position>
+      <DataType>varchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="23" name="dateTimeComment">
+      <Position>5</Position>
+      <DataType>datetime2(0 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="66" parent="23" name="PK__EventCom__3213E83F049CBAF2">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="23" name="PK__EventCom__3213E83F049CBAF2">
+      <ObjectId>1189579276</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.690</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.690</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__EventCom__3213E83F049CBAF2</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="23" name="FK__EventComm__idEve__4E88ABD4">
+      <ObjectId>1317579732</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.807</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.807</ModifiedTimestamp>
+      <ColNames>idEvent</ColNames>
+      <RefTableId>1029578706</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Event</RefTableName>
+      <RefKeyName>PK__Event__3213E83F74420070</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="69" parent="23" name="FK__EventComm__idUse__4F7CD00D">
+      <ObjectId>1333579789</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.827</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.827</ModifiedTimestamp>
+      <ColNames>idUser</ColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>AppUser</RefTableName>
+      <RefKeyName>PK__AppUser__F3DBC5732FD053A7</RefKeyName>
+      <RefColNames>username</RefColNames>
+    </foreign-key>
+    <column id="70" parent="24" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="24" name="infoType">
+      <Position>2</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="72" parent="24" name="PK__EventInf__3213E83F0746F42F">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="24" name="PK__EventInf__3213E83F0746F42F">
+      <ObjectId>1093578934</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.610</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.610</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__EventInf__3213E83F0746F42F</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="25" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="25" name="eventId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="25" name="participantId">
+      <Position>3</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="77" parent="25" name="PK__EventPar__3213E83FC9FA247D">
+      <Position>1</Position>
+      <ColNames>id
+eventId
+participantId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="78" parent="25" name="PK__EventPar__3213E83FC9FA247D">
+      <ObjectId>1557580587</ObjectId>
+      <CreatedTimestamp>2018-11-17.19:35:30.417</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:35:30.417</ModifiedTimestamp>
+      <ColNames>id
+eventId
+participantId</ColNames>
+      <UnderlyingIndexName>PK__EventPar__3213E83FC9FA247D</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="79" parent="25" name="FK__EventPart__event__4CA06362">
+      <ObjectId>1285579618</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.777</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.777</ModifiedTimestamp>
+      <ColNames>eventId</ColNames>
+      <RefTableId>1029578706</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Event</RefTableName>
+      <RefKeyName>PK__Event__3213E83F74420070</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="80" parent="25" name="FK__EventPart__parti__4D94879B">
+      <ObjectId>1301579675</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.790</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.790</ModifiedTimestamp>
+      <ColNames>participantId</ColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>AppUser</RefTableName>
+      <RefKeyName>PK__AppUser__F3DBC5732FD053A7</RefKeyName>
+      <RefColNames>username</RefColNames>
+    </foreign-key>
+    <column id="81" parent="26" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="26" name="userId">
+      <Position>2</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="26" name="infoId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="26" name="InfoContent">
+      <Position>4</Position>
+      <DataType>varchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="85" parent="26" name="PK__UserAddi__3213E83FFD996253">
+      <Position>1</Position>
+      <ColNames>id
+userId
+infoId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="26" name="PK__UserAddi__3213E83FFD996253">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2018-11-12.16:04:13.767</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-12.16:04:13.767</ModifiedTimestamp>
+      <ColNames>id
+userId
+infoId</ColNames>
+      <UnderlyingIndexName>PK__UserAddi__3213E83FFD996253</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="87" parent="26" name="FK__UserAddit__userI__47DBAE45">
+      <ObjectId>1205579333</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.693</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.693</ModifiedTimestamp>
+      <ColNames>userId</ColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>AppUser</RefTableName>
+      <RefKeyName>PK__AppUser__F3DBC5732FD053A7</RefKeyName>
+      <RefColNames>username</RefColNames>
+    </foreign-key>
+    <foreign-key id="88" parent="26" name="FK__UserAddit__infoI__48CFD27E">
+      <ObjectId>1221579390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.723</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.723</ModifiedTimestamp>
+      <ColNames>infoId</ColNames>
+      <RefTableId>965578478</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>UserInfo</RefTableName>
+      <RefKeyName>PK__UserInfo__3213E83FD1E25FFF</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="89" parent="27" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="27" name="infoType">
+      <Position>2</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="91" parent="27" name="PK__UserInfo__3213E83FD1E25FFF">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="27" name="PK__UserInfo__3213E83FD1E25FFF">
+      <ObjectId>981578535</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-07.11:42:13.563</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-07.11:42:13.563</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__UserInfo__3213E83FD1E25FFF</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="28" name="name">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="28" name="principal_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="28" name="diagram_id">
+      <Position>3</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="28" name="version">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="97" parent="28" name="definition">
+      <Position>5</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </column>
+    <index id="98" parent="28" name="PK__sysdiagr__C2B05B610D163074">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>diagram_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="99" parent="28" name="UK_principal_name">
+      <Position>2</Position>
+      <ColNames>principal_id
+name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="100" parent="28" name="PK__sysdiagr__C2B05B610D163074">
+      <ObjectId>1413580074</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-11-17.19:28:58.600</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.600</ModifiedTimestamp>
+      <ColNames>diagram_id</ColNames>
+      <UnderlyingIndexName>PK__sysdiagr__C2B05B610D163074</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="101" parent="28" name="UK_principal_name">
+      <ObjectId>1429580131</ObjectId>
+      <CreatedTimestamp>2018-11-17.19:28:58.603</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-17.19:28:58.603</ModifiedTimestamp>
+      <ColNames>principal_id
+name</ColNames>
+      <UnderlyingIndexName>UK_principal_name</UnderlyingIndexName>
+    </key>
+    <column id="102" parent="29" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="29" name="info_type">
+      <Position>2</Position>
+      <DataType>varchar(64 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="104" parent="29" name="PK__user_inf__3213E83FA4402DF6">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="29" name="PK__user_inf__3213E83FA4402DF6">
+      <ObjectId>1861581670</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-04.16:06:46.350</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-04.16:06:46.350</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__user_inf__3213E83FA4402DF6</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <argument id="106" parent="30">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="107" parent="31" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="108" parent="31" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="109" parent="31" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="110" parent="31" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="111" parent="32" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="112" parent="32" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="113" parent="32" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="114" parent="32" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="115" parent="33" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="116" parent="33" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="117" parent="34" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="118" parent="34" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="119" parent="35" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="120" parent="35" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="121" parent="36" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="122" parent="36" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="123" parent="36" name="@new_diagramname">
+      <Position>3</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>

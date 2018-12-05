@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="userWebServices:war exploded">
-    <output-path>$PROJECT_DIR$/target/userWebServices-1.0.0</output-path>
+    <output-path>$PROJECT_DIR$/target/eventWebServices-1.0.0</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="userWebServices" />
+          <element id="module-output" name="eventWebServices" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.microsoft.sqlserver:mssql-jdbc:7.0.0.jre8" />
@@ -104,9 +104,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/userWebServices-1.0.0/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/eventWebServices-1.0.0/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="userWebServices/web/Web" />
+      <element id="javaee-facet-resources" facet="eventWebServices/web/Web" />
     </root>
   </artifact>
 </component>

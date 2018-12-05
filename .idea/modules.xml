@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/userWebServices.iml" filepath="$PROJECT_DIR$/userWebServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventWebServices.iml" filepath="$PROJECT_DIR$/eventWebServices.iml" />
     </modules>
   </component>
 </project>
