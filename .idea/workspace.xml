@@ -2,212 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a1649e9-82d5-4299-b2c3-2247ed57095c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipantsPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventAdditionalInfosDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventCommentsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventParticipantsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Service/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/userWebServices_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/userWebServices_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/userWebServices_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/userWebServices_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d0ba52f8-bb2f-4e1e-b3fe-4d4a37e324cd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventAdditionalInfosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventAdditionalInfosDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Service/EventAdditionalInfosService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfosPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Controller/UserAdditionalInfosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Controller/UserInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserInfoDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/GenericDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/GenericDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserInfoDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Service/UserAdditionalInfosService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Service/UserInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/AppUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/AppUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfosPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfosPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserAdditionalInfosController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserAdditionalInfosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/UserInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserAdditionalInfosDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserAdditionalInfosDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserInfoDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/UserInfoDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserInfoDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/UserInfoDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserAdditionalInfosService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserAdditionalInfosService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/AppUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/AppUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfosPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfosPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Beans/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Controller/UserAdditionalInfosController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Controller/UserAdditionalInfosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Controller/UserInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Controller/UserInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/GenericDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/GenericDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/UserAdditionalInfosDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/UserAdditionalInfosDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/UserInfoDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAO/UserInfoDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/GenericDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/GenericDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/UserInfoDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/DAOImpl/UserInfoDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Service/UserAdditionalInfosService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Service/UserAdditionalInfosService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Service/UserInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Service/UserInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Starter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/MainPackage/Starter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/aether-api-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/aether-impl-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/aether-spi-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/aether-util-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/aspectjweaver-1.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/byte-buddy-1.8.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/ehcache-core-2.6.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/hibernate-core-5.3.7.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/hibernate-validator-6.0.13.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jackson-core-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jackson-databind-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jackson-datatype-hibernate5-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jackson-datatype-jdk8-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jackson-datatype-jsr310-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jackson-module-parameter-names-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/javax.transaction-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jsr305-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jta-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/log4j-api-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/log4j-to-slf4j-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-aether-provider-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-artifact-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-core-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-filtering-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-model-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-model-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-plugin-api-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-repository-metadata-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-resources-plugin-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-settings-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-settings-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/maven-shared-utils-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/mssql-jdbc-7.0.0.jre8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/plexus-build-api-0.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/plexus-cipher-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/plexus-classworlds-2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/plexus-interpolation-1.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/plexus-sec-dispatcher-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/plexus-utils-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/sisu-guice-2.1.7-noaop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/sisu-inject-bean-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/sisu-inject-plexus-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-aop-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-aspects-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-beans-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-autoconfigure-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-starter-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-starter-aop-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-starter-data-jpa-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-starter-jdbc-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-starter-json-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-starter-logging-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-boot-starter-web-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-context-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-core-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-data-commons-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-data-jpa-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-expression-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-jcl-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-jdbc-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-orm-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-tx-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-web-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/spring-webmvc-5.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userWebServices-1.0.0/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/userws.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userWebServices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eventWebServices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventAdditionalInfosDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventAdditionalInfosDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -231,7 +30,55 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventAdditionalInfosController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventAdditionalInfosDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="29" column="64" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -276,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventAdditionalInfosDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventCommentsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventParticipantsDAO.java" />
@@ -287,6 +133,10 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventAdditionalInfosDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Service/EventAdditionalInfosService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventAdditionalInfosController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventAdditionalInfosDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -652,12 +502,12 @@
       <workItem from="1543929641374" duration="3962000" />
       <workItem from="1543934258267" duration="1005000" />
       <workItem from="1543935276898" duration="4327000" />
-      <workItem from="1544002857227" duration="2610000" />
+      <workItem from="1544002857227" duration="6134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35659000" />
+    <option name="totallyTimeSpent" value="39183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -670,22 +520,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1290" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7745098" visible="true" weight="0.40210357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7654321" visible="true" weight="0.27022654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.2254902" side_tool="true" visible="true" weight="0.40210357" />
+      <window_info id="Persistence" order="3" sideWeight="0.23498233" side_tool="true" weight="0.27022654" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21898928" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41807044" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.28552458" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32802126" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39356816" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32771823" />
@@ -751,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventCommentsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -769,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventAdditionalInfosDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -861,16 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -878,6 +705,67 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#newEvent#0;class#EventDAOImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventAdditionalInfosDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Service/EventAdditionalInfosService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventAdditionalInfosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventAdditionalInfosDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
