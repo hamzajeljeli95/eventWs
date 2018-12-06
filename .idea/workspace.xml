@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a1649e9-82d5-4299-b2c3-2247ed57095c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventCommentsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventCommentsDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Service/EventCommentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventInfoDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Service/EventInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventCommentsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventCommentsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,46 +31,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventCommentsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="116" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventCommentsDAOImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="293">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventAdditionalInfosController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="54" selection-start-line="29" selection-start-column="53" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="289">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventParticipantsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/GenericDaoImpl.java" />
@@ -140,6 +118,10 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Service/EventCommentsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventCommentsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventCommentsDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventInfoDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Service/EventInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventInfoController.java" />
       </list>
     </option>
   </component>
@@ -506,7 +488,7 @@
       <workItem from="1543934258267" duration="1005000" />
       <workItem from="1543935276898" duration="4327000" />
       <workItem from="1544002857227" duration="10513000" />
-      <workItem from="1544089444781" duration="1259000" />
+      <workItem from="1544089444781" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="Status 2/5">
       <created>1544017516854</created>
@@ -519,7 +501,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44821000" />
+    <option name="totallyTimeSpent" value="45887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,7 +516,7 @@
     <frame x="-5" y="-5" width="1290" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7654321" visible="true" weight="0.3171521" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7654321" visible="true" weight="0.3656958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.23498233" side_tool="true" weight="0.27022654" />
@@ -615,20 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -721,16 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -814,11 +772,74 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventCommentsDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventInfoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventInfoDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Service/EventInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventControllerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Controller/EventInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
           </folding>
         </state>
       </provider>
