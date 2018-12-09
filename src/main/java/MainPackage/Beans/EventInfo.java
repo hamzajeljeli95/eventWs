@@ -1,11 +1,16 @@
 package MainPackage.Beans;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 public class EventInfo {
     private int id;
     private String infoType;
+    private Collection<EventAdditionalInfos> eventAdditionalInfosById;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -46,5 +51,15 @@ public class EventInfo {
         int result = id;
         result = 31 * result + (infoType != null ? infoType.hashCode() : 0);
         return result;
+    }
+
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "eventInfoByInfoId")
+    public Collection<EventAdditionalInfos> getEventAdditionalInfosById() {
+        return eventAdditionalInfosById;
+    }
+
+    public void setEventAdditionalInfosById(Collection<EventAdditionalInfos> eventAdditionalInfosById) {
+        this.eventAdditionalInfosById = eventAdditionalInfosById;
     }
 }

@@ -14,5 +14,8 @@
         <mapping class="MainPackage.Beans.EventComments"/>
         <mapping class="MainPackage.Beans.EventInfo"/>
         <mapping class="MainPackage.Beans.EventParticipants"/>
+        <mapping class="MainPackage.Beans.AppUser"/>
+        <mapping class="MainPackage.Beans.UserAdditionalInfos"/>
+        <mapping class="MainPackage.Beans.UserInfo"/>
     </session-factory>
 </hibernate-configuration>

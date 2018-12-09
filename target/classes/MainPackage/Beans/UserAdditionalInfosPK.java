@@ -1,17 +1,14 @@
 package MainPackage.Beans;
 
 import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
-public class EventAdditionalInfosPK implements Serializable {
+public class UserAdditionalInfosPK implements Serializable {
     private int id;
-    private int eventId;
+    private String userId;
     private int infoId;
 
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     @Id
     public int getId() {
@@ -22,14 +19,14 @@ public class EventAdditionalInfosPK implements Serializable {
         this.id = id;
     }
 
-    @Column(name = "eventId", nullable = false)
+    @Column(name = "userId", nullable = false, length = 64)
     @Id
-    public int getEventId() {
-        return eventId;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setEventId(int eventId) {
-        this.eventId = eventId;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     @Column(name = "infoId", nullable = false)
@@ -47,11 +44,11 @@ public class EventAdditionalInfosPK implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        EventAdditionalInfosPK that = (EventAdditionalInfosPK) o;
+        UserAdditionalInfosPK that = (UserAdditionalInfosPK) o;
 
         if (id != that.id) return false;
-        if (eventId != that.eventId) return false;
         if (infoId != that.infoId) return false;
+        if (userId != null ? !userId.equals(that.userId) : that.userId != null) return false;
 
         return true;
     }
@@ -59,7 +56,7 @@ public class EventAdditionalInfosPK implements Serializable {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + eventId;
+        result = 31 * result + (userId != null ? userId.hashCode() : 0);
         result = 31 * result + infoId;
         return result;
     }

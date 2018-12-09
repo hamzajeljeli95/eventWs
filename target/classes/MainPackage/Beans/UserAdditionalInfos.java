@@ -5,14 +5,14 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 
 @Entity
-@IdClass(EventAdditionalInfosPK.class)
-public class EventAdditionalInfos {
+@IdClass(UserAdditionalInfosPK.class)
+public class UserAdditionalInfos {
     private int id;
-    private int eventId;
+    private String userId;
     private int infoId;
     private String infoContent;
-    private Event eventByEventId;
-    private EventInfo eventInfoByInfoId;
+    private AppUser appUserByUserId;
+    private UserInfo userInfoByInfoId;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,13 +26,13 @@ public class EventAdditionalInfos {
     }
 
     @Id
-    @Column(name = "eventId", nullable = false)
-    public int getEventId() {
-        return eventId;
+    @Column(name = "userId", nullable = false, length = 64)
+    public String getUserId() {
+        return userId;
     }
 
-    public void setEventId(int eventId) {
-        this.eventId = eventId;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     @Id
@@ -60,11 +60,11 @@ public class EventAdditionalInfos {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        EventAdditionalInfos that = (EventAdditionalInfos) o;
+        UserAdditionalInfos that = (UserAdditionalInfos) o;
 
         if (id != that.id) return false;
-        if (eventId != that.eventId) return false;
         if (infoId != that.infoId) return false;
+        if (userId != null ? !userId.equals(that.userId) : that.userId != null) return false;
         if (infoContent != null ? !infoContent.equals(that.infoContent) : that.infoContent != null) return false;
 
         return true;
@@ -73,7 +73,7 @@ public class EventAdditionalInfos {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + eventId;
+        result = 31 * result + (userId != null ? userId.hashCode() : 0);
         result = 31 * result + infoId;
         result = 31 * result + (infoContent != null ? infoContent.hashCode() : 0);
         return result;
@@ -81,23 +81,23 @@ public class EventAdditionalInfos {
 
     @JsonIgnore
     @ManyToOne
-    @JoinColumn(name = "eventId", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
-    public Event getEventByEventId() {
-        return eventByEventId;
+    @JoinColumn(name = "userId", referencedColumnName = "username", nullable = false, insertable = false, updatable = false)
+    public AppUser getAppUserByUserId() {
+        return appUserByUserId;
     }
 
-    public void setEventByEventId(Event eventByEventId) {
-        this.eventByEventId = eventByEventId;
+    public void setAppUserByUserId(AppUser appUserByUserId) {
+        this.appUserByUserId = appUserByUserId;
     }
 
     @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "infoId", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
-    public EventInfo getEventInfoByInfoId() {
-        return eventInfoByInfoId;
+    public UserInfo getUserInfoByInfoId() {
+        return userInfoByInfoId;
     }
 
-    public void setEventInfoByInfoId(EventInfo eventInfoByInfoId) {
-        this.eventInfoByInfoId = eventInfoByInfoId;
+    public void setUserInfoByInfoId(UserInfo userInfoByInfoId) {
+        this.userInfoByInfoId = userInfoByInfoId;
     }
 }

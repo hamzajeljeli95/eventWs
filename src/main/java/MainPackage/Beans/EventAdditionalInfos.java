@@ -1,5 +1,7 @@
 package MainPackage.Beans;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
@@ -9,6 +11,8 @@ public class EventAdditionalInfos {
     private int eventId;
     private int infoId;
     private String infoContent;
+    private Event eventByEventId;
+    private EventInfo eventInfoByInfoId;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -73,5 +77,27 @@ public class EventAdditionalInfos {
         result = 31 * result + infoId;
         result = 31 * result + (infoContent != null ? infoContent.hashCode() : 0);
         return result;
+    }
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "eventId", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
+    public Event getEventByEventId() {
+        return eventByEventId;
+    }
+
+    public void setEventByEventId(Event eventByEventId) {
+        this.eventByEventId = eventByEventId;
+    }
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "infoId", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
+    public EventInfo getEventInfoByInfoId() {
+        return eventInfoByInfoId;
+    }
+
+    public void setEventInfoByInfoId(EventInfo eventInfoByInfoId) {
+        this.eventInfoByInfoId = eventInfoByInfoId;
     }
 }

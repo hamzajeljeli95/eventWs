@@ -1,5 +1,7 @@
 package MainPackage.Beans;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.sql.Date;
 
@@ -10,6 +12,8 @@ public class EventComments {
     private String idUser;
     private String commentContent;
     private Date dateTimeComment;
+    private Event eventByIdEvent;
+    private AppUser appUserByIdUser;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -85,5 +89,27 @@ public class EventComments {
         result = 31 * result + (commentContent != null ? commentContent.hashCode() : 0);
         result = 31 * result + (dateTimeComment != null ? dateTimeComment.hashCode() : 0);
         return result;
+    }
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "idEvent", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
+    public Event getEventByIdEvent() {
+        return eventByIdEvent;
+    }
+
+    public void setEventByIdEvent(Event eventByIdEvent) {
+        this.eventByIdEvent = eventByIdEvent;
+    }
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "idUser", referencedColumnName = "username", nullable = false, insertable = false, updatable = false)
+    public AppUser getAppUserByIdUser() {
+        return appUserByIdUser;
+    }
+
+    public void setAppUserByIdUser(AppUser appUserByIdUser) {
+        this.appUserByIdUser = appUserByIdUser;
     }
 }

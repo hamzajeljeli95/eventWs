@@ -1,6 +1,8 @@
 package MainPackage.Beans;
 
 import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
@@ -9,6 +11,7 @@ public class EventAdditionalInfosPK implements Serializable {
     private int eventId;
     private int infoId;
 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     @Id
     public int getId() {

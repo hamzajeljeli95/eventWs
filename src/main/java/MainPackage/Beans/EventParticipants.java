@@ -1,5 +1,7 @@
 package MainPackage.Beans;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
@@ -8,6 +10,8 @@ public class EventParticipants {
     private int id;
     private int eventId;
     private String participantId;
+    private Event eventByEventId;
+    private AppUser appUserByParticipantId;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -61,5 +65,27 @@ public class EventParticipants {
         result = 31 * result + eventId;
         result = 31 * result + (participantId != null ? participantId.hashCode() : 0);
         return result;
+    }
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "eventId", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
+    public Event getEventByEventId() {
+        return eventByEventId;
+    }
+
+    public void setEventByEventId(Event eventByEventId) {
+        this.eventByEventId = eventByEventId;
+    }
+
+    @JsonIgnore
+    @ManyToOne
+    @JoinColumn(name = "participantId", referencedColumnName = "username", nullable = false, insertable = false, updatable = false)
+    public AppUser getAppUserByParticipantId() {
+        return appUserByParticipantId;
+    }
+
+    public void setAppUserByParticipantId(AppUser appUserByParticipantId) {
+        this.appUserByParticipantId = appUserByParticipantId;
     }
 }
