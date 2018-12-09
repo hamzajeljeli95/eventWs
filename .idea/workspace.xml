@@ -2,37 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a1649e9-82d5-4299-b2c3-2247ed57095c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfosPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a456f68-61df-4262-94e7-8369af7df4a7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a456f68-61df-4262-94e7-8369af7df4a7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a456f68-61df-4262-94e7-8369af7df4a7/storage_v2/_src_/database/CampRandoApp.mEoiYg/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a456f68-61df-4262-94e7-8369af7df4a7/storage_v2/_src_/database/CampRandoApp.mEoiYg/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipantsPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipantsPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfos.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfosPK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfosPK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfosPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfosPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventComments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventComments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventComments.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventComments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipants.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipantsPK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipantsPK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipantsPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipantsPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/AppUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfosPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipantsPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfosPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/EventAdditionalInfosController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/EventCommentsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/EventControllerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/EventInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Controller/EventParticipantsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/EventAdditionalInfosDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/EventCommentsDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/EventDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/EventInfoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/EventParticipantsDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAO/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/EventAdditionalInfosDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/EventCommentsDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/EventDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/EventInfoDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/EventParticipantsDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/EventAdditionalInfosService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/EventCommentsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/EventInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/EventParticipantsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Service/EventService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Starter.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="867">
               <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="595">
+              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,9 +87,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Service/UserAdditionalInfosService.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Controller/UserAdditionalInfosController.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Starter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/GenericDaoImpl.java" />
@@ -165,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -267,7 +290,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -497,7 +520,8 @@
       <workItem from="1544002857227" duration="10513000" />
       <workItem from="1544089444781" duration="11040000" />
       <workItem from="1544261753381" duration="1782000" />
-      <workItem from="1544349056571" duration="1489000" />
+      <workItem from="1544349056571" duration="2698000" />
+      <workItem from="1544354027431" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="Status 2/5">
       <created>1544017516854</created>
@@ -510,7 +534,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57873000" />
+    <option name="totallyTimeSpent" value="60150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,21 +549,21 @@
     <frame x="-5" y="-5" width="1290" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7577197" visible="true" weight="0.37864077" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7546778" visible="true" weight="0.37864077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.24228029" side_tool="true" visible="true" weight="0.37864077" />
+      <window_info id="Persistence" order="3" sideWeight="0.24532224" side_tool="true" visible="true" weight="0.37864077" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35528332" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35528332" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.28552458" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19142419" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2633997" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32771823" />
@@ -605,13 +629,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -824,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -905,18 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="867">
           <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -925,11 +925,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state relative-caret-position="595">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>

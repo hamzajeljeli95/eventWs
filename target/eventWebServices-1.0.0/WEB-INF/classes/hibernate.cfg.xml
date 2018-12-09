@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:sqlserver://41.229.118.249:33820;database=CampRandoApp</property>
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password">21545049H@m</property>
+        <mapping class="MainPackage.Beans.Event"/>
+        <mapping class="MainPackage.Beans.EventAdditionalInfos"/>
+        <mapping class="MainPackage.Beans.EventComments"/>
+        <mapping class="MainPackage.Beans.EventInfo"/>
+        <mapping class="MainPackage.Beans.EventParticipants"/>
+        <mapping class="MainPackage.Beans.AppUser"/>
+        <mapping class="MainPackage.Beans.UserAdditionalInfos"/>
+        <mapping class="MainPackage.Beans.UserInfo"/>
+    </session-factory>
+</hibernate-configuration>
